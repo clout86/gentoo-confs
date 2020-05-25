@@ -1,0 +1,45 @@
+app-editors/vim X cscope gpm lua perl python terminal vim-pager
+app-emulation/qemu gnutls vte xfs ssh spice snappy nfs numa capstone virtfs vde
+dev-lang/python sqlite
+dev-libs/libgcrypt static-libs
+dev-libs/libgpg-error static-libs
+dev-libs/lzo static-libs
+dev-lua/luarocks curl openssl
+dev-ml/lablgl glut
+dev-python/PyQt5 webchannel
+dev-python/PyQt5 multimedia sql declarative webengine
+dev-python/pyyaml libyaml
+dev-qt/qtmultimedia widgets
+dev-qt/qtwebchannel qml qml
+dev-qt/qtwebengine jumbo-build
+dev-qt/qtwebengine widgets
+dev-util/catalyst doc
+dev-vcs/git tk highlight
+media-fonts/noto cjk
+media-libs/mesa opencl vmware
+media-video/ffmpeg x256 modplug opencl openh264 openssl ladspa libass libcaca libcaca lzma theora v4l chromium
+media-video/vlc matroska
+net-ftp/lftp verify-file
+net-irc/weechat man 
+net-libs/libpcap netlink
+sys-apps/usbredir imtap sasl lzo xen doc
+sys-fs/squashfs lz4 lzma lzo
+sys-kernel/gentoo-sources symlink
+sys-libs/zlib minizip
+www-client/w3m lynxkeymap xface fbcon nntp gdk-pixbuf
+www-client/w3mmee imlib xface
+www-plugins/adobe-flash nsplugin
+x11-libs/libxcb xkb
+x11-terms/rxvt-unicode unicode3 256-color xft blink fading-colors pixbuf vanilla wcwidth
+x11-wm/awesome doc
+# required by x11-drivers/xf86-video-vmware-13.3.0::gentoo
+# required by xf86-video-vmware (argument)
+>=x11-libs/libdrm-2.4.97 libkms video_cards_vmware
+# required by x11-drivers/xf86-video-vmware-13.3.0::gentoo
+# required by xf86-video-vmware (argument)
+>=media-libs/mesa-19.0.8 xa
+# required by gnome-base/gnome-keyring-3.28.2::gentoo
+# required by app-crypt/libsecret-0.18.8::gentoo
+# required by gnome-extra/nm-applet-1.8.22::gentoo
+# required by nm-applet (argument)
+>=app-crypt/pinentry-1.1.0-r2 gnome-keyring
